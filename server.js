@@ -26,7 +26,8 @@ await connectCloudinary()
 // const allowedOrigins = 'http://localhost:5174'
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://fresh-mart-front-end.vercel.app'
+  'https://fresh-mart-front-end.vercel.app',
+  'https://fresh-mart-front-pffcl0gba-gibins-projects.vercel.app'
 ];
 
 app.post('/stripe',express.raw({type:'application/json'}),stripeWebHook)
